@@ -1,0 +1,33 @@
+.container {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 96vw;
+        height: 7rem;
+        animation: slideRight 30s linear infinite;
+
+        .text {
+            color: #434343;
+            font-family: Inter;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 13px;
+            letter-spacing: -0.39px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translate(-100%);
+    }
+}

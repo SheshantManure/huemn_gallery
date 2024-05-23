@@ -1,0 +1,14 @@
+<h6>Photo by - VE</h6>  
+<img src={Swrill} alt='swrill' />
+<h6>Arjun & Aanya Wedding Collections</h6>
+<img src={Swrill} alt='swrill' />
+<h6>Represented by ve</h6>
+<img src={Swrill} alt='swrill' />
+<h6>all images are copyrighted &copy; 2024</h6>
+<h6>Photo by - VE</h6>
+<img src={Swrill} alt='swrill' />
+<h6>Arjun & Aanya Wedding Collections</h6>
+<img src={Swrill} alt='swrill' />
+<h6>Represented by ve</h6>
+<img src={Swrill} alt='swrill' />
+<h6>all images are copyrighted &copy; 2024</h6>

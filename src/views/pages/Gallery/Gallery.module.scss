@@ -1,0 +1,129 @@
+// W: 1920px H: 1108px
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    .titleContainer {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+
+        .title {
+            width: fit-content;
+            text-align: center;
+
+            h1 {
+                color: #434343;
+                font-family: "Tenor Sans";
+                font-size: 44px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: -1.32px;
+                text-transform: uppercase;
+            }
+
+            h4 {
+                color: #434343;
+                font-family: "IvyPresto Display";
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 300;
+                letter-spacing: -0.6px;
+            }
+        }
+    }
+
+    .galleryContainer {
+        margin-top: 80px;
+        height: 44%;
+        display: flex;
+        justify-content: center;
+
+        .photoWrapper {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+
+            .photoBy {
+                width: 25%;
+                height: auto;
+                transform: rotate(-90deg);
+                transform-origin: right;
+                position: absolute;
+                top: 5%;
+                left: -30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    color: #242424;
+                    font-family: "IBM Plex Sans";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 300;
+                    text-transform: capitalize;
+                    margin: 5px;
+                    padding: 5px;
+                }
+            }
+
+            .photo {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                overflow-y: hidden;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    height: auto;
+                    border-radius: 0.5rem;
+                }
+            }
+
+            .photoDesc {
+                width: 25%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                right: 0%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                & > * {
+                    margin: 5px;
+                    margin-left: 1rem;
+                }
+
+                h1 {
+                    color: #242424;
+                    font-family: "IvyPresto Display";
+                    font-size: 44px;
+                    font-style: italic;
+                    font-weight: 100;
+                    letter-spacing: -1.32px;
+                }
+
+                .line {
+                    width: 55px;
+                    height: 2px;
+                    background-color: #242424;
+                }
+
+                h4 {
+                    color: #242424;
+                    font-family: "IBM Plex Sans";
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 300;
+                    letter-spacing: -0.39px;
+                }
+            }
+        }
+    }
+}
