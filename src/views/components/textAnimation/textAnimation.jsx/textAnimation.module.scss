@@ -5,29 +5,33 @@
     justify-content: center;
     align-items: center;
 
-    svg {
-        width: 96vw;
-        height: 7rem;
-        animation: slideRight 30s linear infinite;
+    .main {
+        width: 80%;
 
-        .text {
-            color: #434343;
-            font-family: Inter;
-            font-size: 13px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 13px;
-            letter-spacing: -0.39px;
-            text-transform: uppercase;
+        svg {
+            width: 5000px;
+            height: 7rem;
+            animation: slideRight 120s linear infinite;
+    
+            .text {
+                color: #434343;
+                font-family: Inter;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 13px;
+                letter-spacing: -0.39px;
+                text-transform: uppercase;
+            }
         }
     }
 }
 
 @keyframes slideRight {
     0% {
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
     100% {
-        transform: translate(-100%);
+        transform: translateX(-50%);
     }
 }
